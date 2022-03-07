@@ -1,3 +1,10 @@
+<#
+.SYNOPSIS
+.DESCRIPTION
+.PARAMETER credentialName
+Provide the name of a credential stored in the automation account
+#>
+
 [OutputType([string])]
 param ([Parameter(Mandatory=$true)]
         [string]$credentialName)
