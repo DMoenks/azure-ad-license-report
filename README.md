@@ -12,7 +12,7 @@
    1. Create self-signed certificate
    2. Grant access for managed identity to certificate
 3. Create Azure AD application
-   1. Grant application permissions _Organization.Read.All_, _Sites.ReadWrite.All_
+   1. Grant Microsoft Graph application permissions _Directory.Read.All_, _Organization.Read.All_, _Sites.ReadWrite.All_
    2. Attach certificate
 
 ## Links
